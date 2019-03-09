@@ -4,7 +4,11 @@ import { Textbox, InputTypes } from '../Atoms/Textbox/Textbox'
 import { Button, ButtonTypes } from '../Atoms/Button/Button'
 import { LinkButton } from '../Atoms/LinkButton/LinkButton'
 
-export class Login extends React.Component<{}> {
+export interface LoginProps {
+  onCreateAccountClicked: React.EventHandler<React.MouseEvent<HTMLElement>>;
+}
+
+export class Login extends React.Component<LoginProps> {
   public render (): React.ReactElement {
     return (
       <form className={styles.login}>
@@ -17,7 +21,9 @@ export class Login extends React.Component<{}> {
         </div>
         <Button type={ButtonTypes.Submit}>Go</Button>
         <div className={styles.createContainer}>
-          <LinkButton>Create account</LinkButton>
+          <LinkButton onClick={this.props.onCreateAccountClicked}>
+            Create account
+          </LinkButton>
         </div>
       </form>
     )
