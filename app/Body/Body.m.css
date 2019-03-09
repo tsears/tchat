@@ -7,6 +7,25 @@
   justify-content: center;
 }
 
-.hidden {
+.form {
+  position: relative;
+  transition: right 0.3s ease-out;
+}
+
+.visible {
+  display: block;
+  right: 0;
+}
+
+.hidden, .hidden2, .waiting {
   display: none;
+  right: -150%;
+}
+
+.slideOut {
+  right: 150%;
+}
+
+.slideIn {
+  right: -150%;
 }
