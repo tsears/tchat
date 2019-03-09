@@ -49,7 +49,8 @@ module.exports = {
     'jasmine/no-spec-dupes': 0,
     'jasmine/no-suite-dupes': 0,
     'indent': 'off',
-    '@typescript-eslint/indent': ['error', 2]
+    '@typescript-eslint/indent': ['error', 2],
+    'react/prop-types': 0
   },
   settings: {
     'eslint-plugin-disable': {

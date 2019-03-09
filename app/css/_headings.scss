@@ -25,3 +25,7 @@ h5 {
 h6 {
     @include heading-size(1);
 }
+
+.label {
+  font-family: 'Gentium Basic', serif;
+}

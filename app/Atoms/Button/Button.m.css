@@ -1,0 +1,19 @@
+.activeButton {
+  background-color: #3949ab;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 0;
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+
+.activeButton:hover {
+  background-color: #283593;
+  cursor: pointer;
+}
+
+.activeButton:active {
+  background-color:  #1a237e;
+  box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+}
