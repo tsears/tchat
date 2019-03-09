@@ -17,7 +17,7 @@ export class Login extends React.Component<{}> {
         </div>
         <Button type={ButtonTypes.Submit}>Go</Button>
         <div className={styles.createContainer}>
-          <LinkButton>Create an account</LinkButton>
+          <LinkButton>Create account</LinkButton>
         </div>
       </form>
     )

@@ -5,7 +5,6 @@ const currentYear = new Date().getFullYear()
 
 export const Footer: React.StatelessComponent<{}> = (): React.ReactElement => (
   <div className={styles.footer}>
-    <div>tchat</div>
     <div>&copy;{currentYear} Tom Sears</div>
   </div>
 )

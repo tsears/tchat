@@ -4,9 +4,6 @@ import * as styles from './Header.m.css'
 export const Header: React.StatelessComponent<{}> = (): React.ReactElement => (
   <div className={styles.header}>
     <div>
-      tchat
-    </div>
-    <div>
       <a href='https://github.com/tsears/tchat'>
         <svg height='22' width='22'>
           <g transform='scale(0.05)'>
